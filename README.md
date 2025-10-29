@@ -1,6 +1,20 @@
 ## PROYECTOS DE TRAINING ETHEREUM CON SOLIDITY
 
 - https://github.com/codecrypto-academy/chrome-wallet.git
+
+    1. Wallet Ethereum como extensión de Chrome compatible con EIP-1193, EIP-712, EIP-1559 y EIP-6963.
+    2. Soporta gestión de cuentas con frases mnemónicas BIP-39 de 12 palabras, generación de claves con BIP-44 y acceso sin contraseña.
+    3. Implementada con React 19 + TypeScript y Ethers.js v6 como única dependencia para operaciones criptográficas.
+    4. Expone el proveedor `window.codecrypto`, compatible con dApps que usen MetaMask, siguiendo el estándar EIP-1193.
+    5. Incluye firma de transacciones (eth_sendTransaction) y mensajes tipados EIP-712 (eth_signTypedData_v4) con gestión de gas EIP-1559.
+    6. Sistema de aprobación con notificaciones, badge en el ícono de la extensión, modal de confirmación y autoapertura del popup.
+    7. Persistencia de datos en `chrome.storage.local`, carga automática de la wallet, y sincronización de cuenta activa y chain ID.
+    8. Soporta múltiples redes (localhost:8545 Chain ID 31337 y Sepolia Chain ID 11155111) con cambio dinámico.
+    9. Emite eventos `accountsChanged` y `chainChanged` a todas las pestañas cuando se modifica la cuenta o la red.
+    10. Pensada para desarrollo/testing, con interfaz de prueba en test.html y modo de desarrollo que funciona sin extensión instalada.
+
+
+
 - https://github.com/codecrypto-academy/ecommerce.git
 
     - Este proyecto es un sistema completo de e-commerce basado en blockchain que integra la creación y gestión de una stablecoin (EuroToken), compra de tokens con tarjeta de crédito mediante Stripe, y una pasarela de pagos con criptomonedas. 
