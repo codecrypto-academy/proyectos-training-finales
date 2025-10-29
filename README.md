@@ -33,6 +33,11 @@
 
 ## PROYECTOS DE TRAINING ETHEREUM CON SOLANA
 
+ - https://github.com/codecrypto-academy/rust-web.git
+
+ - Aplicación full-stack para gestión de clientes con frontend Next.js (TypeScript/React) y backend Rust con framework Rocket que permite administrar información de clientes de manera eficiente
+ 
+
 - https://github.com/codecrypto-academy/solana-21-4-2025-bonos.git
 
 - Este proyecto implementa un sistema completo de bonos de deuda en la blockchain de Solana, utilizando una stablecoin propia llamada EuroCoin (EuroCC) como medio de pago y tokens SPL denominados BonoDeuda para representar los bonos.
