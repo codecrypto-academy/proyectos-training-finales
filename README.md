@@ -25,7 +25,22 @@
 - https://github.com/codecrypto-academy/rwa-sc.git
 - https://github.com/codecrypto-academy/rwa-sc-web.git
 - https://github.com/codecrypto-academy/scrow.git
+
     - Proyecto DApp de escrow para intercambio seguro de tokens ERC20 con smart contract en Solidity (Foundry) y frontend Next.js 14.
     - Usa tecnologías como Solidity 0.8.13, Foundry, OpenZeppelin, Next.js, ethers.js v6, Tailwind CSS y MetaMask para conexión con blockchain.
+
 - https://github.com/codecrypto-academy/explorer.git
 
+## PROYECTOS DE TRAINING ETHEREUM CON SOLANA
+
+- https://github.com/codecrypto-academy/solana-21-4-2025-bonos.git
+
+- Este proyecto implementa un sistema completo de bonos de deuda en la blockchain de Solana, utilizando una stablecoin propia llamada EuroCoin (EuroCC) como medio de pago y tokens SPL denominados BonoDeuda para representar los bonos.
+
+- https://github.com/codecrypto-academy/solana-subasta.git
+
+ -  Solana Subastas es una aplicación descentralizada de subastas en Solana. Incluye un programa en Rust (Anchor) con instrucciones para crear subastas, iniciarlas, registrar pujas y finalizarlas. La aplicación web (Next.js 15/React 19) permite conectarse con Phantom wallet, crear subastas (nombre, descripción, importe mínimo, fechas) y pujar en subastas activas. Los datos de subastas y pujas se almacenan en PDAs en la blockchain de Solana. El sistema gestiona estados de subastas (inactiva, activa, finalizada) y rastrea el ganador y el importe máximo.
+
+- https://github.com/codecrypto-academy/solana-swap-2025.git
+
+ - Programa de Solana desarrollado con Anchor (Rust) que implementa un sistema de intercambio de tokens entre dos tipos de criptomonedas.
